@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "e2b Mobile",
     "slug": "mobile",
     "version": "1.0.0",
+    "scheme": "e2bmobile",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -20,6 +21,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-status-bar",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
